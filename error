@@ -1,96 +1,8 @@
-
-lib/screens/subscription/subscription_screen.dart:82:7: Error: Variables must be declared using the keywords 'const', 'final', 'var' or a type name.
-Try adding the name of the type of the variable or the keyword 'var'.
-      width: double.infinity,
-      ^^^^^
-lib/screens/subscription/subscription_screen.dart:82:7: Error: Expected ';' after this.
-      width: double.infinity,
-      ^^^^^
-lib/screens/subscription/subscription_screen.dart:82:12: Error: Expected a declaration, but got ':'.
-      width: double.infinity,
-           ^
-lib/screens/subscription/subscription_screen.dart:82:14: Error: A function declaration needs an explicit list of parameters.
-Try adding a parameter list to the function declaration.
-      width: double.infinity,
-             ^^^^^^
-lib/screens/subscription/subscription_screen.dart:82:20: Error: Expected '{' before this.
-      width: double.infinity,
-                   ^
-lib/screens/subscription/subscription_screen.dart:82:20: Error: Expected a declaration, but got '.'.
-      width: double.infinity,
-                   ^
-lib/screens/subscription/subscription_screen.dart:82:21: Error: Variables must be declared using the keywords 'const', 'final', 'var' or a type name.
-Try adding the name of the type of the variable or the keyword 'var'.
-      width: double.infinity,
-                    ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:83:7: Error: Expected ';' after this.
-      decoration: BoxDecoration(
-      ^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:83:17: Error: Expected a declaration, but got ':'.
-      decoration: BoxDecoration(
-                ^
-lib/screens/subscription/subscription_screen.dart:84:17: Error: Non-optional parameters can't have a default value.
-Try removing the default value or making the parameter optional.
-        gradient: LinearGradient(
-                ^
-lib/screens/subscription/subscription_screen.dart:92:8: Error: Expected '{' before this.
-      ),
-       ^
-lib/screens/subscription/subscription_screen.dart:92:8: Error: Expected a declaration, but got ','.
-      ),
-       ^
-lib/screens/subscription/subscription_screen.dart:93:7: Error: Variables must be declared using the keywords 'const', 'final', 'var' or a type name.
-Try adding the name of the type of the variable or the keyword 'var'.
-      child: Padding(
-      ^^^^^
-lib/screens/subscription/subscription_screen.dart:93:7: Error: Expected ';' after this.
-      child: Padding(
-      ^^^^^
-lib/screens/subscription/subscription_screen.dart:93:12: Error: Expected a declaration, but got ':'.
-      child: Padding(
-           ^
-lib/screens/subscription/subscription_screen.dart:94:16: Error: Non-optional parameters can't have a default value.
-Try removing the default value or making the parameter optional.
-        padding: const EdgeInsets.all(24),
-               ^
-lib/screens/subscription/subscription_screen.dart:95:14: Error: Non-optional parameters can't have a default value.
-Try removing the default value or making the parameter optional.
-        child: Column(
-             ^
-lib/screens/subscription/subscription_screen.dart:155:8: Error: Expected '{' before this.
-      ),
-       ^
-lib/screens/subscription/subscription_screen.dart:155:8: Error: Expected a declaration, but got ','.
-      ),
-       ^
-lib/screens/subscription/subscription_screen.dart:156:5: Error: Expected a declaration, but got ')'.
-    );
-    ^
-lib/screens/subscription/subscription_screen.dart:156:6: Error: Unexpected token ';'.
-    );
-     ^
-lib/screens/subscription/subscription_screen.dart:157:3: Error: Expected a declaration, but got '}'.
-  }
-  ^
-lib/screens/subscription/subscription_screen.dart:619:1: Error: Expected a declaration, but got '}'.
-}
-^
-lib/screens/subscription/subscription_screen.dart:356:25: Error: Type 'SubscriptionPlan' not found.
-  Widget _buildPlanCard(SubscriptionPlan plan, bool isSelected, VoidCallback onTap) {
-                        ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:547:20: Error: Type 'SubscriptionPlan' not found.
-  void _startTrial(SubscriptionPlan plan, SubscriptionProvider subscriptionProvider) {
-                   ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:568:30: Error: Type 'SubscriptionPlan' not found.
-  void _purchaseSubscription(SubscriptionPlan plan, SubscriptionProvider subscriptionProvider) {
-                             ^^^^^^^^^^^^^^^^
-lib/providers/subscription_provider.dart:98:11: Error: This expression has type 'void' and can't be used.
-      if (response.isEmpty && _subscription.isPremium) {
-          ^
-lib/providers/subscription_provider.dart:98:20: Error: The getter 'isEmpty' isn't defined for the class 'void'.
-Try correcting the name to the name of an existing getter, or defining a getter or field named 'isEmpty'.
-      if (response.isEmpty && _subscription.isPremium) {
-                   ^^^^^^^
+Launching lib\main.dart on Chrome in debug mode...
+Waiting for connection from debug service on Chrome...
+lib/screens/alarms/alarms_screen.dart:474:21: Error: Type 'SubscriptionProvider' not found.
+  void _addNewAlarm(SubscriptionProvider subscriptionProvider) {
+                    ^^^^^^^^^^^^^^^^^^^^
 lib/utils/theme.dart:44:9: Error: No named parameter with the name 'backgroundColor'.
         backgroundColor: Colors.white,
         ^^^^^^^^^^^^^^^
@@ -103,929 +15,105 @@ lib/utils/theme.dart:135:9: Error: No named parameter with the name 'backgroundC
 /C:/flutter/packages/flutter/lib/src/material/bottom_navigation_bar_theme.dart:317:9: Context: Found this candidate, but the arguments don't match.
   const BottomNavigationBarTheme({super.key, required this.data, required super.child});
         ^^^^^^^^^^^^^^^^^^^^^^^^
-lib/screens/home/home_screen.dart:134:18: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-          child: Padding(
-                 ^^^^^^^
-lib/screens/home/home_screen.dart:166:18: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-          child: Padding(
-                 ^^^^^^^
-lib/screens/home/home_screen.dart:244:27: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-              decoration: BoxDecoration(
-                          ^^^^^^^^^^^^^
-lib/screens/home/home_screen.dart:307:19: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-      decoration: BoxDecoration(
-                  ^^^^^^^^^^^^^
-lib/screens/home/home_screen.dart:377:16: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-        child: Padding(
-               ^^^^^^^
-lib/screens/home/home_screen.dart:432:24: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                child: Padding(
-                       ^^^^^^^
-lib/screens/home/home_screen.dart:448:26: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                  child: Padding(
-                         ^^^^^^^
-lib/screens/home/home_screen.dart:498:18: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-          child: Padding(
-                 ^^^^^^^
-lib/screens/games/games_screen.dart:103:14: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-      child: Padding(
-             ^^^^^^^
-lib/screens/games/games_screen.dart:202:33: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                    decoration: BoxDecoration(
-                                ^^^^^^^^^^^^^
-lib/screens/games/games_screen.dart:219:37: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                        decoration: BoxDecoration(
-                                    ^^^^^^^^^^^^^
-lib/screens/games/games_screen.dart:192:16: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-        child: Padding(
-               ^^^^^^^
-lib/screens/games/games_screen.dart:296:14: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-      child: Padding(
-             ^^^^^^^
-lib/screens/games/games_screen.dart:385:23: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-          decoration: BoxDecoration(
-                      ^^^^^^^^^^^^^
-lib/screens/games/games_screen.dart:403:29: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                decoration: BoxDecoration(
-                            ^^^^^^^^^^^^^
-lib/screens/games/games_screen.dart:423:14: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:26:46: Error: Too few positional arguments: 1 required, 0 given.
-                    decoration: BoxDecoration(
-                                             ^
-lib/screens/subscription/subscription_screen.dart:83:19: Context: Found this candidate, but the arguments don't match.
-      decoration: BoxDecoration(
-                  ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:18:27: Error: Too few positional arguments: 2 required, 0 given.
-            child: Padding(
-                          ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:88:35: Error: Method invocation is not a constant expression.
-            AppColors.premiumGold.withOpacity(0.1),
-                                  ^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:87:19: Error: Constant expression expected.
-Try inserting 'const'.
-          colors: [
-                  ^
-lib/screens/subscription/subscription_screen.dart:84:19: Error: Constant expression expected.
-Try inserting 'const'.
-        gradient: LinearGradient(
-                  ^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:102:44: Error: Constant expression expected.
-Try inserting 'const'.
-                borderRadius: BorderRadius.circular(40),
-                                           ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:102:44: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-Try using a constructor or factory that is 'const'.
-                borderRadius: BorderRadius.circular(40),
-                                           ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:105:50: Error: Method invocation is not a constant expression.
-                    color: AppColors.premiumGold.withOpacity(0.3),
-                                                 ^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:104:19: Error: Constant expression expected.
-Try inserting 'const'.
-                  BoxShadow(
-                  ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:103:28: Error: Constant expression expected.
-Try inserting 'const'.
-                boxShadow: [
-                           ^
-lib/screens/subscription/subscription_screen.dart:100:27: Error: Method invocation is not a constant expression.
-              decoration: BoxDecoration(
-                          ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:97:13: Error: Constant expression expected.
-Try inserting 'const'.
-            Container(
-            ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:97:13: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-Try using a constructor or factory that is 'const'.
-            Container(
-            ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:119:15: Error: Undefined name 'subscriptionProvider'.
-              subscriptionProvider.isPremium 
-              ^^^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:122:31: Error: Undefined name 'context'.
-              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                              ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:122:28: Error: Method invocation is not a constant expression.
-              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                           ^^
-lib/screens/subscription/subscription_screen.dart:122:40: Error: Not a constant expression.
-              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                                       ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:122:66: Error: Method invocation is not a constant expression.
-              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                                                                 ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:118:13: Error: Constant expression expected.
-Try inserting 'const'.
-            Text(
-            ^^^^
-lib/screens/subscription/subscription_screen.dart:128:15: Error: Undefined name 'subscriptionProvider'.
-              subscriptionProvider.isPremium
-              ^^^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:131:31: Error: Undefined name 'context'.
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                              ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:131:28: Error: Method invocation is not a constant expression.
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                           ^^
-lib/screens/subscription/subscription_screen.dart:131:40: Error: Not a constant expression.
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                                       ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:132:33: Error: Undefined name 'context'.
-                color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                                ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:132:30: Error: Method invocation is not a constant expression.
-                color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                             ^^
-lib/screens/subscription/subscription_screen.dart:132:42: Error: Not a constant expression.
-                color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                                         ^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:132:64: Error: Method invocation is not a constant expression.
-                color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                                                               ^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:131:61: Error: Method invocation is not a constant expression.
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                                                            ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:127:13: Error: Constant expression expected.
-Try inserting 'const'.
-            Text(
-            ^^^^
-lib/screens/subscription/subscription_screen.dart:136:17: Error: Undefined name 'subscriptionProvider'.
-            if (subscriptionProvider.isPremium) ...[
-                ^^^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:141:48: Error: Method invocation is not a constant expression.
-                  color: AppColors.premiumGold.withOpacity(0.2),
-                                               ^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:142:46: Error: Constant expression expected.
-Try inserting 'const'.
-                  borderRadius: BorderRadius.circular(20),
-                                             ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:142:46: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-Try using a constructor or factory that is 'const'.
-                  borderRadius: BorderRadius.circular(20),
-                                             ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:140:29: Error: Method invocation is not a constant expression.
-                decoration: BoxDecoration(
-                            ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:145:19: Error: Undefined name 'subscriptionProvider'.
-                  subscriptionProvider.subscriptionStatusText,
-                  ^^^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:146:35: Error: Undefined name 'context'.
-                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                                  ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:146:32: Error: Method invocation is not a constant expression.
-                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                               ^^
-lib/screens/subscription/subscription_screen.dart:146:44: Error: Not a constant expression.
-                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                                           ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:146:67: Error: Method invocation is not a constant expression.
-                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                                                                  ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:144:24: Error: Constant expression expected.
-Try inserting 'const'.
-                child: Text(
-                       ^^^^
-lib/screens/subscription/subscription_screen.dart:138:15: Error: Constant expression expected.
-Try inserting 'const'.
-              Container(
-              ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:138:15: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-Try using a constructor or factory that is 'const'.
-              Container(
-              ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:136:52: Error: Constant expression expected.
-Try inserting 'const'.
-            if (subscriptionProvider.isPremium) ...[
-                                                   ^
-lib/screens/subscription/subscription_screen.dart:96:21: Error: Constant expression expected.
-Try inserting 'const'.
-          children: [
-                    ^
-lib/screens/subscription/subscription_screen.dart:95:16: Error: Constant expression expected.
-Try inserting 'const'.
-        child: Column(
-               ^^^^^^
-lib/screens/subscription/subscription_screen.dart:170:33: Error: Undefined name 'context'.
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                                ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:163:23: Error: Too few positional arguments: 2 required, 0 given.
-        child: Padding(
-                      ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:160:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:215:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.bodyMedium,
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:219:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:208:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:251:23: Error: Member not found: 'ad_units_off'.
-        'icon': Icons.ad_units_off,
-                      ^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:269:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:262:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:292:38: Error: Too few positional arguments: 1 required, 0 given.
-            decoration: BoxDecoration(
-                                     ^
-lib/screens/subscription/subscription_screen.dart:83:19: Context: Found this candidate, but the arguments don't match.
-      decoration: BoxDecoration(
-                  ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:308:35: Error: Undefined name 'context'.
-                  style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                                  ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:315:35: Error: Undefined name 'context'.
-                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                  ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:316:37: Error: Undefined name 'context'.
-                    color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                                    ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:285:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:335:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:340:14: Error: Undefined name 'SubscriptionPlan'.
-          ...SubscriptionPlan.availablePlans.asMap().entries.map((entry) {
-             ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:343:32: Error: Undefined name '_selectedPlanIndex'.
-            final isSelected = _selectedPlanIndex == index;
-                               ^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:347:17: Error: Setter not found: '_selectedPlanIndex'.
-                _selectedPlanIndex = index;
-                ^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:346:15: Error: Method not found: 'setState'.
-              setState(() {
-              ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:328:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:356:25: Error: 'SubscriptionPlan' isn't a type.
-  Widget _buildPlanCard(SubscriptionPlan plan, bool isSelected, VoidCallback onTap) {
-                        ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:365:28: Error: Undefined name 'context'.
-                : Theme.of(context).colorScheme.outline.withOpacity(0.3),
-                           ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:371:26: Error: Undefined name 'context'.
-              : Theme.of(context).cardColor,
-                         ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:361:34: Error: Too few positional arguments: 1 required, 0 given.
-        decoration: BoxDecoration(
-                                 ^
-lib/screens/subscription/subscription_screen.dart:83:19: Context: Found this candidate, but the arguments don't match.
-      decoration: BoxDecoration(
-                  ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:392:43: Error: Undefined name 'context'.
-                          style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                                          ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:396:44: Error: Undefined name 'SubscriptionPeriod'.
-                        if (plan.period == SubscriptionPeriod.yearly) ...[
-                                           ^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:400:54: Error: Too few positional arguments: 1 required, 0 given.
-                            decoration: BoxDecoration(
-                                                     ^
-lib/screens/subscription/subscription_screen.dart:83:19: Context: Found this candidate, but the arguments don't match.
-      decoration: BoxDecoration(
-                  ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:406:47: Error: Undefined name 'context'.
-                              style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                                              ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:418:39: Error: Undefined name 'context'.
-                      style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                                      ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:423:40: Error: Undefined name 'SubscriptionPeriod'.
-                    if (plan.period == SubscriptionPeriod.yearly) ...[
-                                       ^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:427:41: Error: Undefined name 'context'.
-                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                        ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:428:43: Error: Undefined name 'context'.
-                          color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                                          ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:373:23: Error: Too few positional arguments: 2 required, 0 given.
-        child: Padding(
-                      ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:443:26: Error: Undefined name 'SubscriptionPlan'.
-    final selectedPlan = SubscriptionPlan.availablePlans[_selectedPlanIndex];
-                         ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:443:58: Error: Undefined name '_selectedPlanIndex'.
-    final selectedPlan = SubscriptionPlan.availablePlans[_selectedPlanIndex];
-                                                         ^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:445:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:510:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:520:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:521:31: Error: Undefined name 'context'.
-              color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
-                              ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:504:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:547:20: Error: 'SubscriptionPlan' isn't a type.
-  void _startTrial(SubscriptionPlan plan, SubscriptionProvider subscriptionProvider) {
-                   ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:555:22: Error: Undefined name 'context'.
-        Navigator.of(context).pop();
-                     ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:556:30: Error: Undefined name 'context'.
-        ScaffoldMessenger.of(context).showSnackBar(
-                             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:568:30: Error: 'SubscriptionPlan' isn't a type.
-  void _purchaseSubscription(SubscriptionPlan plan, SubscriptionProvider subscriptionProvider) {
-                             ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:571:22: Error: Undefined name 'context'.
-        Navigator.of(context).pop();
-                     ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:572:30: Error: Undefined name 'context'.
-        ScaffoldMessenger.of(context).showSnackBar(
-                             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:586:16: Error: Undefined name 'context'.
-      context: context,
-               ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:606:16: Error: Undefined name 'context'.
-      context: context,
-               ^^^^^^^
-lib/screens/alarms/sound_selection_screen.dart:141:27: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-              decoration: BoxDecoration(
-                          ^^^^^^^^^^^^^
-lib/screens/alarms/sound_selection_screen.dart:160:37: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                        decoration: BoxDecoration(
-                                    ^^^^^^^^^^^^^
-lib/screens/alarms/sound_selection_screen.dart:210:37: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                        decoration: BoxDecoration(
-                                    ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:87:19: Error: Non-constant list literal is not a constant expression.
-          colors: [
-                  ^
-lib/screens/subscription/subscription_screen.dart:96:21: Error: Not a constant expression.
-          children: [
-                    ^
-Target kernel_snapshot_program failed: Exception
-
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':app:compileFlutterBuildDebug'.
-> Process 'command 'C:\flutter\bin\flutter.bat'' finished with non-zero exit value 1
-
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights.
-> Get more help at https://help.gradle.org.
-
-BUILD FAILED in 1m 22s
-Error: Gradle task assembleDebug failed with exit code 1
-
-lib/screens/subscription/subscription_screen.dart:82:7: Error: Variables must be declared using the keywords 'const', 'final', 'var' or a type name.
-Try adding the name of the type of the variable or the keyword 'var'.
-      width: double.infinity,
-      ^^^^^
-lib/screens/subscription/subscription_screen.dart:82:7: Error: Expected ';' after this.
-      width: double.infinity,
-      ^^^^^
-lib/screens/subscription/subscription_screen.dart:82:12: Error: Expected a declaration, but got ':'.
-      width: double.infinity,
-           ^
-lib/screens/subscription/subscription_screen.dart:82:14: Error: A function declaration needs an explicit list of parameters.
-Try adding a parameter list to the function declaration.
-      width: double.infinity,
-             ^^^^^^
-lib/screens/subscription/subscription_screen.dart:82:20: Error: Expected '{' before this.
-      width: double.infinity,
-                   ^
-lib/screens/subscription/subscription_screen.dart:82:20: Error: Expected a declaration, but got '.'.
-      width: double.infinity,
-                   ^
-lib/screens/subscription/subscription_screen.dart:82:21: Error: Variables must be declared using the keywords 'const', 'final', 'var' or a type name.
-Try adding the name of the type of the variable or the keyword 'var'.
-      width: double.infinity,
-                    ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:83:7: Error: Expected ';' after this.
-      decoration: BoxDecoration(
-      ^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:83:17: Error: Expected a declaration, but got ':'.
-      decoration: BoxDecoration(
-                ^
-lib/screens/subscription/subscription_screen.dart:84:17: Error: Non-optional parameters can't have a default value.
-Try removing the default value or making the parameter optional.
-        gradient: LinearGradient(
-                ^
-lib/screens/subscription/subscription_screen.dart:92:8: Error: Expected '{' before this.
-      ),
-       ^
-lib/screens/subscription/subscription_screen.dart:92:8: Error: Expected a declaration, but got ','.
-      ),
-       ^
-lib/screens/subscription/subscription_screen.dart:93:7: Error: Variables must be declared using the keywords 'const', 'final', 'var' or a type name.
-Try adding the name of the type of the variable or the keyword 'var'.
-      child: Padding(
-      ^^^^^
-lib/screens/subscription/subscription_screen.dart:93:7: Error: Expected ';' after this.
-      child: Padding(
-      ^^^^^
-lib/screens/subscription/subscription_screen.dart:93:12: Error: Expected a declaration, but got ':'.
-      child: Padding(
-           ^
-lib/screens/subscription/subscription_screen.dart:94:16: Error: Non-optional parameters can't have a default value.
-Try removing the default value or making the parameter optional.
-        padding: const EdgeInsets.all(24),
-               ^
-lib/screens/subscription/subscription_screen.dart:95:14: Error: Non-optional parameters can't have a default value.
-Try removing the default value or making the parameter optional.
-        child: Column(
-             ^
-lib/screens/subscription/subscription_screen.dart:155:8: Error: Expected '{' before this.
-      ),
-       ^
-lib/screens/subscription/subscription_screen.dart:155:8: Error: Expected a declaration, but got ','.
-      ),
-       ^
-lib/screens/subscription/subscription_screen.dart:156:5: Error: Expected a declaration, but got ')'.
-    );
-    ^
-lib/screens/subscription/subscription_screen.dart:156:6: Error: Unexpected token ';'.
-    );
-     ^
-lib/screens/subscription/subscription_screen.dart:157:3: Error: Expected a declaration, but got '}'.
-  }
-  ^
-lib/screens/subscription/subscription_screen.dart:619:1: Error: Expected a declaration, but got '}'.
-}
-^
-lib/screens/subscription/subscription_screen.dart:356:25: Error: Type 'SubscriptionPlan' not found.
-  Widget _buildPlanCard(SubscriptionPlan plan, bool isSelected, VoidCallback onTap) {
-                        ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:547:20: Error: Type 'SubscriptionPlan' not found.
-  void _startTrial(SubscriptionPlan plan, SubscriptionProvider subscriptionProvider) {
-                   ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:568:30: Error: Type 'SubscriptionPlan' not found.
-  void _purchaseSubscription(SubscriptionPlan plan, SubscriptionProvider subscriptionProvider) {
-                             ^^^^^^^^^^^^^^^^
-lib/providers/subscription_provider.dart:98:11: Error: This expression has type 'void' and can't be used.
-      if (response.isEmpty && _subscription.isPremium) {
-          ^
-lib/providers/subscription_provider.dart:98:20: Error: The getter 'isEmpty' isn't defined for the class 'void'.
-Try correcting the name to the name of an existing getter, or defining a getter or field named 'isEmpty'.
-      if (response.isEmpty && _subscription.isPremium) {
-                   ^^^^^^^
-lib/utils/theme.dart:44:9: Error: No named parameter with the name 'backgroundColor'.
-        backgroundColor: Colors.white,
-        ^^^^^^^^^^^^^^^
-/C:/flutter/packages/flutter/lib/src/material/bottom_navigation_bar_theme.dart:317:9: Context: Found this candidate, but the arguments don't match.
-  const BottomNavigationBarTheme({super.key, required this.data, required super.child});
-        ^^^^^^^^^^^^^^^^^^^^^^^^
-lib/utils/theme.dart:135:9: Error: No named parameter with the name 'backgroundColor'.
-        backgroundColor: surfaceDark,
-        ^^^^^^^^^^^^^^^
-/C:/flutter/packages/flutter/lib/src/material/bottom_navigation_bar_theme.dart:317:9: Context: Found this candidate, but the arguments don't match.
-  const BottomNavigationBarTheme({super.key, required this.data, required super.child});
-        ^^^^^^^^^^^^^^^^^^^^^^^^
-lib/screens/home/home_screen.dart:134:18: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-          child: Padding(
-                 ^^^^^^^
-lib/screens/home/home_screen.dart:166:18: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-          child: Padding(
-                 ^^^^^^^
-lib/screens/home/home_screen.dart:244:27: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-              decoration: BoxDecoration(
-                          ^^^^^^^^^^^^^
-lib/screens/home/home_screen.dart:307:19: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-      decoration: BoxDecoration(
-                  ^^^^^^^^^^^^^
-lib/screens/home/home_screen.dart:377:16: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-        child: Padding(
-               ^^^^^^^
-lib/screens/home/home_screen.dart:432:24: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                child: Padding(
-                       ^^^^^^^
-lib/screens/home/home_screen.dart:448:26: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                  child: Padding(
-                         ^^^^^^^
-lib/screens/home/home_screen.dart:498:18: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-          child: Padding(
-                 ^^^^^^^
-lib/screens/games/games_screen.dart:103:14: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-      child: Padding(
-             ^^^^^^^
-lib/screens/games/games_screen.dart:202:33: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                    decoration: BoxDecoration(
-                                ^^^^^^^^^^^^^
-lib/screens/games/games_screen.dart:219:37: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                        decoration: BoxDecoration(
-                                    ^^^^^^^^^^^^^
-lib/screens/games/games_screen.dart:192:16: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-        child: Padding(
-               ^^^^^^^
-lib/screens/games/games_screen.dart:296:14: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-      child: Padding(
-             ^^^^^^^
-lib/screens/games/games_screen.dart:385:23: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-          decoration: BoxDecoration(
-                      ^^^^^^^^^^^^^
-lib/screens/games/games_screen.dart:403:29: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                decoration: BoxDecoration(
-                            ^^^^^^^^^^^^^
-lib/screens/games/games_screen.dart:423:14: Error: 'Padding' is imported from both 'package:flutter/src/widgets/basic.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:26:46: Error: Too few positional arguments: 1 required, 0 given.
-                    decoration: BoxDecoration(
-                                             ^
-lib/screens/subscription/subscription_screen.dart:83:19: Context: Found this candidate, but the arguments don't match.
-      decoration: BoxDecoration(
-                  ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:18:27: Error: Too few positional arguments: 2 required, 0 given.
-            child: Padding(
-                          ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:88:35: Error: Method invocation is not a constant expression.
-            AppColors.premiumGold.withOpacity(0.1),
-                                  ^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:87:19: Error: Constant expression expected.
-Try inserting 'const'.
-          colors: [
-                  ^
-lib/screens/subscription/subscription_screen.dart:84:19: Error: Constant expression expected.
-Try inserting 'const'.
-        gradient: LinearGradient(
-                  ^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:102:44: Error: Constant expression expected.
-Try inserting 'const'.
-                borderRadius: BorderRadius.circular(40),
-                                           ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:102:44: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-Try using a constructor or factory that is 'const'.
-                borderRadius: BorderRadius.circular(40),
-                                           ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:105:50: Error: Method invocation is not a constant expression.
-                    color: AppColors.premiumGold.withOpacity(0.3),
-                                                 ^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:104:19: Error: Constant expression expected.
-Try inserting 'const'.
-                  BoxShadow(
-                  ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:103:28: Error: Constant expression expected.
-Try inserting 'const'.
-                boxShadow: [
-                           ^
-lib/screens/subscription/subscription_screen.dart:100:27: Error: Method invocation is not a constant expression.
-              decoration: BoxDecoration(
-                          ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:97:13: Error: Constant expression expected.
-Try inserting 'const'.
-            Container(
-            ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:97:13: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-Try using a constructor or factory that is 'const'.
-            Container(
-            ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:119:15: Error: Undefined name 'subscriptionProvider'.
-              subscriptionProvider.isPremium 
-              ^^^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:122:31: Error: Undefined name 'context'.
-              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                              ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:122:28: Error: Method invocation is not a constant expression.
-              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                           ^^
-lib/screens/subscription/subscription_screen.dart:122:40: Error: Not a constant expression.
-              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                                       ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:122:66: Error: Method invocation is not a constant expression.
-              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                                                                 ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:118:13: Error: Constant expression expected.
-Try inserting 'const'.
-            Text(
-            ^^^^
-lib/screens/subscription/subscription_screen.dart:128:15: Error: Undefined name 'subscriptionProvider'.
-              subscriptionProvider.isPremium
-              ^^^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:131:31: Error: Undefined name 'context'.
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                              ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:131:28: Error: Method invocation is not a constant expression.
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                           ^^
-lib/screens/subscription/subscription_screen.dart:131:40: Error: Not a constant expression.
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                                       ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:132:33: Error: Undefined name 'context'.
-                color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                                ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:132:30: Error: Method invocation is not a constant expression.
-                color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                             ^^
-lib/screens/subscription/subscription_screen.dart:132:42: Error: Not a constant expression.
-                color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                                         ^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:132:64: Error: Method invocation is not a constant expression.
-                color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                                                               ^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:131:61: Error: Method invocation is not a constant expression.
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                                                            ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:127:13: Error: Constant expression expected.
-Try inserting 'const'.
-            Text(
-            ^^^^
-lib/screens/subscription/subscription_screen.dart:136:17: Error: Undefined name 'subscriptionProvider'.
-            if (subscriptionProvider.isPremium) ...[
-                ^^^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:141:48: Error: Method invocation is not a constant expression.
-                  color: AppColors.premiumGold.withOpacity(0.2),
-                                               ^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:142:46: Error: Constant expression expected.
-Try inserting 'const'.
-                  borderRadius: BorderRadius.circular(20),
-                                             ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:142:46: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-Try using a constructor or factory that is 'const'.
-                  borderRadius: BorderRadius.circular(20),
-                                             ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:140:29: Error: Method invocation is not a constant expression.
-                decoration: BoxDecoration(
-                            ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:145:19: Error: Undefined name 'subscriptionProvider'.
-                  subscriptionProvider.subscriptionStatusText,
-                  ^^^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:146:35: Error: Undefined name 'context'.
-                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                                  ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:146:32: Error: Method invocation is not a constant expression.
-                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                               ^^
-lib/screens/subscription/subscription_screen.dart:146:44: Error: Not a constant expression.
-                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                                           ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:146:67: Error: Method invocation is not a constant expression.
-                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                                                                  ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:144:24: Error: Constant expression expected.
-Try inserting 'const'.
-                child: Text(
-                       ^^^^
-lib/screens/subscription/subscription_screen.dart:138:15: Error: Constant expression expected.
-Try inserting 'const'.
-              Container(
-              ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:138:15: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-Try using a constructor or factory that is 'const'.
-              Container(
-              ^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:136:52: Error: Constant expression expected.
-Try inserting 'const'.
-            if (subscriptionProvider.isPremium) ...[
-                                                   ^
-lib/screens/subscription/subscription_screen.dart:96:21: Error: Constant expression expected.
-Try inserting 'const'.
-          children: [
-                    ^
-lib/screens/subscription/subscription_screen.dart:95:16: Error: Constant expression expected.
-Try inserting 'const'.
-        child: Column(
-               ^^^^^^
-lib/screens/subscription/subscription_screen.dart:170:33: Error: Undefined name 'context'.
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                                ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:163:23: Error: Too few positional arguments: 2 required, 0 given.
-        child: Padding(
-                      ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:160:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:215:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.bodyMedium,
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:219:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:208:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:251:23: Error: Member not found: 'ad_units_off'.
-        'icon': Icons.ad_units_off,
-                      ^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:269:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:262:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:292:38: Error: Too few positional arguments: 1 required, 0 given.
-            decoration: BoxDecoration(
-                                     ^
-lib/screens/subscription/subscription_screen.dart:83:19: Context: Found this candidate, but the arguments don't match.
-      decoration: BoxDecoration(
-                  ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:308:35: Error: Undefined name 'context'.
-                  style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                                  ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:315:35: Error: Undefined name 'context'.
-                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                  ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:316:37: Error: Undefined name 'context'.
-                    color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                                    ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:285:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:335:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:340:14: Error: Undefined name 'SubscriptionPlan'.
-          ...SubscriptionPlan.availablePlans.asMap().entries.map((entry) {
-             ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:343:32: Error: Undefined name '_selectedPlanIndex'.
-            final isSelected = _selectedPlanIndex == index;
-                               ^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:347:17: Error: Setter not found: '_selectedPlanIndex'.
-                _selectedPlanIndex = index;
-                ^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:346:15: Error: Method not found: 'setState'.
-              setState(() {
-              ^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:328:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:356:25: Error: 'SubscriptionPlan' isn't a type.
-  Widget _buildPlanCard(SubscriptionPlan plan, bool isSelected, VoidCallback onTap) {
-                        ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:365:28: Error: Undefined name 'context'.
-                : Theme.of(context).colorScheme.outline.withOpacity(0.3),
-                           ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:371:26: Error: Undefined name 'context'.
-              : Theme.of(context).cardColor,
-                         ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:361:34: Error: Too few positional arguments: 1 required, 0 given.
-        decoration: BoxDecoration(
-                                 ^
-lib/screens/subscription/subscription_screen.dart:83:19: Context: Found this candidate, but the arguments don't match.
-      decoration: BoxDecoration(
-                  ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:392:43: Error: Undefined name 'context'.
-                          style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                                          ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:396:44: Error: Undefined name 'SubscriptionPeriod'.
-                        if (plan.period == SubscriptionPeriod.yearly) ...[
-                                           ^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:400:54: Error: Too few positional arguments: 1 required, 0 given.
-                            decoration: BoxDecoration(
-                                                     ^
-lib/screens/subscription/subscription_screen.dart:83:19: Context: Found this candidate, but the arguments don't match.
-      decoration: BoxDecoration(
-                  ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:406:47: Error: Undefined name 'context'.
-                              style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                                              ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:418:39: Error: Undefined name 'context'.
-                      style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                                      ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:423:40: Error: Undefined name 'SubscriptionPeriod'.
-                    if (plan.period == SubscriptionPeriod.yearly) ...[
-                                       ^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:427:41: Error: Undefined name 'context'.
-                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                        ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:428:43: Error: Undefined name 'context'.
-                          color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
-                                          ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:373:23: Error: Too few positional arguments: 2 required, 0 given.
-        child: Padding(
-                      ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:443:26: Error: Undefined name 'SubscriptionPlan'.
-    final selectedPlan = SubscriptionPlan.availablePlans[_selectedPlanIndex];
-                         ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:443:58: Error: Undefined name '_selectedPlanIndex'.
-    final selectedPlan = SubscriptionPlan.availablePlans[_selectedPlanIndex];
-                                                         ^^^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:445:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:510:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:520:29: Error: Undefined name 'context'.
-            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:521:31: Error: Undefined name 'context'.
-              color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
-                              ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:504:19: Error: Too few positional arguments: 2 required, 0 given.
-    return Padding(
-                  ^
-lib/screens/subscription/subscription_screen.dart:93:14: Context: Found this candidate, but the arguments don't match.
-      child: Padding(
-             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:547:20: Error: 'SubscriptionPlan' isn't a type.
-  void _startTrial(SubscriptionPlan plan, SubscriptionProvider subscriptionProvider) {
-                   ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:555:22: Error: Undefined name 'context'.
-        Navigator.of(context).pop();
-                     ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:556:30: Error: Undefined name 'context'.
-        ScaffoldMessenger.of(context).showSnackBar(
-                             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:568:30: Error: 'SubscriptionPlan' isn't a type.
-  void _purchaseSubscription(SubscriptionPlan plan, SubscriptionProvider subscriptionProvider) {
-                             ^^^^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:571:22: Error: Undefined name 'context'.
-        Navigator.of(context).pop();
-                     ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:572:30: Error: Undefined name 'context'.
-        ScaffoldMessenger.of(context).showSnackBar(
-                             ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:586:16: Error: Undefined name 'context'.
-      context: context,
-               ^^^^^^^
-lib/screens/subscription/subscription_screen.dart:606:16: Error: Undefined name 'context'.
-      context: context,
-               ^^^^^^^
-lib/screens/alarms/sound_selection_screen.dart:141:27: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-              decoration: BoxDecoration(
-                          ^^^^^^^^^^^^^
-lib/screens/alarms/sound_selection_screen.dart:160:37: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                        decoration: BoxDecoration(
-                                    ^^^^^^^^^^^^^
-lib/screens/alarms/sound_selection_screen.dart:210:37: Error: 'BoxDecoration' is imported from both 'package:flutter/src/painting/box_decoration.dart' and 'package:nosnooz/screens/subscription/subscription_screen.dart'.
-                        decoration: BoxDecoration(
-                                    ^^^^^^^^^^^^^
-lib/screens/subscription/subscription_screen.dart:87:19: Error: Non-constant list literal is not a constant expression.
-          colors: [
-                  ^
-lib/screens/subscription/subscription_screen.dart:96:21: Error: Not a constant expression.
-          children: [
-                    ^
+lib/screens/home/home_screen.dart:86:15: Error: The method '_buildPremiumHighlight' isn't defined for the class '_HomeScreenState'.
+ - '_HomeScreenState' is from 'package:nosnooz/screens/home/home_screen.dart' ('lib/screens/home/home_screen.dart').
+Try correcting the name to the name of an existing method, or defining a method named '_buildPremiumHighlight'.
+              _buildPremiumHighlight(),
+              ^^^^^^^^^^^^^^^^^^^^^^
+lib/screens/games/games_screen.dart:44:20: Error: 'SubscriptionProvider' isn't a type.
+          Consumer<SubscriptionProvider>(
+                   ^^^^^^^^^^^^^^^^^^^^
+lib/screens/games/games_screen.dart:52:53: Error: Couldn't find constructor 'SubscriptionScreen'.
+                        builder: (context) => const SubscriptionScreen(),
+                                                    ^^^^^^^^^^^^^^^^^^
+lib/screens/games/games_screen.dart:46:41: Error: The getter 'isPremium' isn't defined for the class 'Object?'.
+ - 'Object' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'isPremium'.
+              if (!subscriptionProvider.isPremium) {
+                                        ^^^^^^^^^
+lib/screens/games/games_screen.dart:441:47: Error: Couldn't find constructor 'SubscriptionScreen'.
+                  builder: (context) => const SubscriptionScreen(),
+                                              ^^^^^^^^^^^^^^^^^^
+lib/screens/alarms/alarms_screen.dart:71:38: Error: 'SubscriptionProvider' isn't a type.
+      body: Consumer2<AlarmProvider, SubscriptionProvider>(
+                                     ^^^^^^^^^^^^^^^^^^^^
+lib/screens/alarms/alarms_screen.dart:111:38: Error: 'SubscriptionProvider' isn't a type.
+      floatingActionButton: Consumer<SubscriptionProvider>(
+                                     ^^^^^^^^^^^^^^^^^^^^
+lib/screens/alarms/alarms_screen.dart:92:43: Error: The getter 'isPremium' isn't defined for the class 'Object?'.
+ - 'Object' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'isPremium'.
+                if (!subscriptionProvider.isPremium && alarms.length >= 5)
+                                          ^^^^^^^^^
+lib/screens/alarms/alarms_screen.dart:474:21: Error: 'SubscriptionProvider' isn't a type.
+  void _addNewAlarm(SubscriptionProvider subscriptionProvider) {
+                    ^^^^^^^^^^^^^^^^^^^^
+lib/screens/alarms/add_alarm_screen.dart:253:36: Error: 'SubscriptionProvider' isn't a type.
+    return Consumer2<GameProvider, SubscriptionProvider>(
+                                   ^^^^^^^^^^^^^^^^^^^^
+lib/screens/alarms/add_alarm_screen.dart:277:83: Error: The getter 'isPremium' isn't defined for the class 'Object?'.
+ - 'Object' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'isPremium'.
+                  final isLocked = gameInfo['isPremium'] && !subscriptionProvider.isPremium;
+                                                                                  ^^^^^^^^^
+lib/screens/alarms/add_alarm_screen.dart:322:43: Error: The getter 'isPremium' isn't defined for the class 'Object?'.
+ - 'Object' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'isPremium'.
+                if (!subscriptionProvider.isPremium) ...[
+                                          ^^^^^^^^^
+lib/screens/alarms/edit_alarm_screen.dart:252:36: Error: 'SubscriptionProvider' isn't a type.
+    return Consumer2<GameProvider, SubscriptionProvider>(
+                                   ^^^^^^^^^^^^^^^^^^^^
+lib/screens/alarms/edit_alarm_screen.dart:276:83: Error: The getter 'isPremium' isn't defined for the class 'Object?'.
+ - 'Object' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'isPremium'.
+                  final isLocked = gameInfo['isPremium'] && !subscriptionProvider.isPremium;
+                                                                                  ^^^^^^^^^
+Unhandled exception:
+Unsupported operation: Unsupported invalid type InvalidType(<invalid>) (InvalidType). Encountered while compiling file:///C:/Users/onepr/StudioProjects/alarm/lib/screens/alarms/alarms_screen.dart, which contains the type: InterfaceType(Consumer2<AlarmProvider, <invalid>>).
+#0      ProgramCompiler._typeCompilationError (package:dev_compiler/src/kernel/compiler.dart:3471)
+#1      ProgramCompiler._emitType (package:dev_compiler/src/kernel/compiler.dart:3439)
+#2      ProgramCompiler.visitConstructorInvocation (package:dev_compiler/src/kernel/compiler.dart:6670)
+#3      ConstructorInvocation.accept (package:kernel/src/ast/expressions.dart:2686)
+#4      ProgramCompiler._visitExpression (package:dev_compiler/src/kernel/compiler.dart:4092)
+#5      ProgramCompiler._emitNamedExpression (package:dev_compiler/src/kernel/compiler.dart:6453)
+#6      ProgramCompiler._emitArgumentList (package:dev_compiler/src/kernel/compiler.dart:6445)
+#7      ProgramCompiler.visitConstructorInvocation (package:dev_compiler/src/kernel/compiler.dart:6677)
+#8      ConstructorInvocation.accept (package:kernel/src/ast/expressions.dart:2686)
+#9      ProgramCompiler._visitExpression (package:dev_compiler/src/kernel/compiler.dart:4092)
+#10     ProgramCompiler.visitReturnStatement (package:dev_compiler/src/kernel/compiler.dart:4797)
+#11     ReturnStatement.accept (package:kernel/src/ast/statements.dart:1076)
+#12     ProgramCompiler._visitStatement (package:dev_compiler/src/kernel/compiler.dart:3997)
+#13     MappedIterable.elementAt (dart:_internal/iterable.dart:402)
+#14     ListIterator.moveNext (dart:_internal/iterable.dart:371)
+#15     new _GrowableList._ofEfficientLengthIterable (dart:core-patch/growable_array.dart:190)
+#16     new _GrowableList.of (dart:core-patch/growable_array.dart:150)
+#17     new List.of (dart:core-patch/array_patch.dart:40)
+#18     SetBase.toList (dart:collection/set.dart:119)
+#19     ProgramCompiler.visitBlock (package:dev_compiler/src/kernel/compiler.dart:4186)
+#20     Block.accept (package:kernel/src/ast/statements.dart:103)
+#21     ProgramCompiler._visitStatement (package:dev_compiler/src/kernel/compiler.dart:3997)
+#22     ProgramCompiler._emitFunctionScopedBody (package:dev_compiler/src/kernel/compiler.dart:4030)
+#23     ProgramCompiler._emitFunction.<anonymous closure> (package:dev_compiler/src/kernel/compiler.dart:3640)
+#24     ProgramCompiler._withLetScope (package:dev_compiler/src/kernel/compiler.dart:2779)
+#25     ProgramCompiler._withCurrentFunction (package:dev_compiler/src/kernel/compiler.dart:3775)
+#26     ProgramCompiler._emitFunction (package:dev_compiler/src/kernel/compiler.dart:3633)
+#27     ProgramCompiler._emitMethodDeclaration.<anonymous closure> (package:dev_compiler/src/kernel/compiler.dart:2330)
+#28     ProgramCompiler._withMethodDeclarationContext (package:dev_compiler/src/kernel/compiler.dart:3802)
+#29     ProgramCompiler._emitMethodDeclaration (package:dev_compiler/src/kernel/compiler.dart:2328)
+#30     ProgramCompiler._emitClassMethods (package:dev_compiler/src/kernel/compiler.dart:2269)
+#31     ProgramCompiler._emitClassDeclaration (package:dev_compiler/src/kernel/compiler.dart:1070)
+#32     ProgramCompiler._emitClass (package:dev_compiler/src/kernel/compiler.dart:1001)
+#33     List.forEach (dart:core-patch/growable_array.dart:421)
+#34     ProgramCompiler._emitLibrary (package:dev_compiler/src/kernel/compiler.dart:940)
+#35     List.forEach (dart:core-patch/growable_array.dart:421)
+#36     ProgramCompiler.emitModule (package:dev_compiler/src/kernel/compiler.dart:629)
+#37     IncrementalJavaScriptBundler.compile (package:frontend_server/src/javascript_bundle.dart:246)
+#38     FrontendCompiler.writeJavaScriptBundle (package:frontend_server/frontend_server.dart:877)
+<asynchronous suspension>
+#39     FrontendCompiler.compile (package:frontend_server/frontend_server.dart:693)
+<asynchronous suspension>
+#40     listenAndCompile.<anonymous closure> (package:frontend_server/frontend_server.dart:1401)
+<asynchronous suspension>
+Finished with error: the Dart compiler exited unexpectedly.
+Failed to compile application.
