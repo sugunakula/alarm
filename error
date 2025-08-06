@@ -1,609 +1,156 @@
-lib/screens/alarm/alarm_dismissal_screen.dart:465:8: Error: '_loadCurrentAlarm' is already declared in this scope.
-  void _loadCurrentAlarm() {
-       ^^^^^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:76:8: Context: Previous declaration of '_loadCurrentAlarm'.
-  void _loadCurrentAlarm() {
-       ^^^^^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:475:8: Error: '_startVibration' is already declared in this scope.
-  void _startVibration() {
-       ^^^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:81:8: Context: Previous declaration of '_startVibration'.
-  void _startVibration() {
-       ^^^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:483:8: Error: '_stopVibration' is already declared in this scope.
-  void _stopVibration() {
-       ^^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:96:8: Context: Previous declaration of '_stopVibration'.
-  void _stopVibration() {
-       ^^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:490:8: Error: '_startGame' is already declared in this scope.
-  void _startGame() {
-       ^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:100:8: Context: Previous declaration of '_startGame'.
-  void _startGame() {
-       ^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:499:8: Error: '_onGameComplete' is already declared in this scope.
-  void _onGameComplete(bool success, int score) {
-       ^^^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:117:8: Context: Previous declaration of '_onGameComplete'.
-  void _onGameComplete(GameResult result) {
-       ^^^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:529:8: Error: '_dismissAlarm' is already declared in this scope.
-  void _dismissAlarm() async {
-       ^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:139:8: Context: Previous declaration of '_dismissAlarm'.
-  void _dismissAlarm() {
-       ^^^^^^^^^^^^^
-lib/games/math_equation_game.dart:529:8: Error: '_startGame' is already declared in this scope.
-  void _startGame() {
-       ^^^^^^^^^^
-lib/games/math_equation_game.dart:77:8: Context: Previous declaration of '_startGame'.
-  void _startGame() {
-       ^^^^^^^^^^
-lib/games/math_equation_game.dart:467:8: Error: '_generateQuestion' is already declared in this scope.
-  void _generateQuestion() {
-       ^^^^^^^^^^^^^^^^^
-lib/games/math_equation_game.dart:82:8: Context: Previous declaration of '_generateQuestion'.
-  void _generateQuestion() {
-       ^^^^^^^^^^^^^^^^^
-lib/games/math_equation_game.dart:428:8: Error: '_selectAnswer' is already declared in this scope.
-  void _selectAnswer(int selectedOption) {
-       ^^^^^^^^^^^^^
-lib/games/math_equation_game.dart:191:8: Context: Previous declaration of '_selectAnswer'.
-  void _selectAnswer(int answer) {
-       ^^^^^^^^^^^^^
-lib/providers/game_provider.dart:36:12: Error: The getter 'math' isn't defined for the class 'GameProvider'.
- - 'GameProvider' is from 'package:nosnooz/providers/game_provider.dart' ('lib/providers/game_provider.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named 'math'.
-    return math.max(0, _currentConfig.timeLimit - elapsed);
-           ^^^^
-lib/providers/game_provider.dart:216:26: Error: The getter 'math' isn't defined for the class 'GameProvider'.
- - 'GameProvider' is from 'package:nosnooz/providers/game_provider.dart' ('lib/providers/game_provider.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named 'math'.
-    final newBestScore = math.max(currentStats.bestScore, result.score);
-                         ^^^^
-lib/services/alarm_service.dart:74:28: Error: A value of type 'bool?' can't be assigned to a variable of type 'bool' because 'bool?' is nullable and 'bool' isn't.
-      bool hasPermission = await SystemAlertWindow.checkPermissions();
-                           ^
-lib/services/alarm_service.dart:78:25: Error: A value of type 'bool?' can't be assigned to a variable of type 'bool' because 'bool?' is nullable and 'bool' isn't.
-        hasPermission = await SystemAlertWindow.checkPermissions();
-                        ^
-lib/services/alarm_service.dart:103:18: Error: Method not found: 'SystemWindowText'.
-          title: SystemWindowText(
-                 ^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:108:20: Error: Undefined name 'SystemWindowPadding'.
-          padding: SystemWindowPadding.setSymmetricPadding(12, 12),
-                   ^^^^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:109:23: Error: Method not found: 'SystemWindowDecoration'.
-          decoration: SystemWindowDecoration(startColor: Colors.red),
-                      ^^^^^^^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:102:17: Error: Method not found: 'SystemWindowHeader'.
-        header: SystemWindowHeader(
-                ^^^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:116:25: Error: Method not found: 'SystemWindowText'.
-                  text: SystemWindowText(
-                        ^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:115:17: Error: Method not found: 'EachColumn'.
-                EachColumn(
-                ^^^^^^^^^^
-lib/services/alarm_service.dart:113:13: Error: Method not found: 'EachRow'.
-            EachRow(
-            ^^^^^^^
-lib/services/alarm_service.dart:127:25: Error: Method not found: 'SystemWindowText'.
-                  text: SystemWindowText(
-                        ^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:132:28: Error: Undefined name 'SystemWindowPadding'.
-                  padding: SystemWindowPadding.setSymmetricPadding(6, 8),
-                           ^^^^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:133:31: Error: Method not found: 'SystemWindowDecoration'.
-                  decoration: SystemWindowDecoration(startColor: Colors.blue),
-                              ^^^^^^^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:126:17: Error: Method not found: 'EachColumn'.
-                EachColumn(
-                ^^^^^^^^^^
-lib/services/alarm_service.dart:124:13: Error: Method not found: 'EachRow'.
-            EachRow(
-            ^^^^^^^
-lib/services/alarm_service.dart:111:15: Error: Method not found: 'SystemWindowBody'.
-        body: SystemWindowBody(
-              ^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:150:17: Error: Undefined name 'SystemWindowMargin'.
-        margin: SystemWindowMargin.fromLTRB(16, 16, 16, 16),
-                ^^^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:100:7: Error: Undefined name 'SystemAlarmWindow'.
-      SystemAlarmWindow.showSystemWindow(
-      ^^^^^^^^^^^^^^^^^
-lib/services/alarm_service.dart:167:28: Error: A value of type 'bool?' can't be assigned to a variable of type 'bool' because 'bool?' is nullable and 'bool' isn't.
-      bool hasPermission = await SystemAlertWindow.checkPermissions();
-                           ^
-lib/screens/alarm/alarm_dismissal_screen.dart:41:5: Error: Can't use '_loadCurrentAlarm' because it is declared more than once.
-    _loadCurrentAlarm();
-    ^
-lib/screens/alarm/alarm_dismissal_screen.dart:42:5: Error: Can't use '_startVibration' because it is declared more than once.
-    _startVibration();
-    ^
-lib/screens/alarm/alarm_dismissal_screen.dart:123:7: Error: Can't use '_dismissAlarm' because it is declared more than once.
-      _dismissAlarm();
-      ^
-lib/screens/alarm/alarm_dismissal_screen.dart:140:5: Error: Can't use '_stopVibration' because it is declared more than once.
-    _stopVibration();
-    ^
-lib/screens/alarm/alarm_dismissal_screen.dart:170:15: Error: Can't use '_startGame' because it is declared more than once.
-              _startGame();
-              ^
-lib/screens/alarm/alarm_dismissal_screen.dart:199:15: Error: Can't use '_startGame' because it is declared more than once.
-              _startGame();
-              ^
-lib/screens/alarm/alarm_dismissal_screen.dart:210:5: Error: Can't use '_dismissAlarm' because it is declared more than once.
-    _dismissAlarm();
-    ^
-lib/screens/alarm/alarm_dismissal_screen.dart:230:25: Error: Can't use '_onGameComplete' because it is declared more than once.
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...
+lib/screens/alarm/alarm_dismissal_screen.dart:476:7: Error: Expected a class member, but got 'if'.
+      if (mounted) {
+      ^^
+lib/screens/alarm/alarm_dismissal_screen.dart:476:10: Error: Expected an identifier, but got '('.
+Try inserting an identifier before '('.
+      if (mounted) {
+         ^
+lib/screens/alarm/alarm_dismissal_screen.dart:489:7: Error: 'catch' can't be used as an identifier because it's a keyword.
+Try renaming this to be an identifier that isn't a keyword.
+    } catch (e) {
+      ^^^^^
+lib/screens/alarm/alarm_dismissal_screen.dart:500:3: Error: Expected a declaration, but got '}'.
+  }
+  ^
+lib/screens/alarm/alarm_dismissal_screen.dart:530:1: Error: Expected a declaration, but got '}'.
+}
+^
+lib/services/alarm_service.dart:67:13: Error: Method not found: '_showOverlayAlert'.
+      await _showOverlayAlert(alarmSettings);
+            ^^^^^^^^^^^^^^^^^
+lib/services/alarm_service.dart:82:15: Error: Method not found: '_showOverlayAlert'.
+        await _showOverlayAlert(alarmSettings);
+              ^^^^^^^^^^^^^^^^^
+lib/screens/alarm/alarm_dismissal_screen.dart:238:25: Error: The argument type 'void Function(GameResult)' can't be assigned to the parameter type 'dynamic Function(bool, int)?'.
+ - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
           onGameResult: _onGameComplete,
                         ^
-lib/screens/alarm/alarm_dismissal_screen.dart:235:25: Error: Can't use '_onGameComplete' because it is declared more than once.
+lib/screens/alarm/alarm_dismissal_screen.dart:243:25: Error: The argument type 'void Function(GameResult)' can't be assigned to the parameter type 'dynamic Function(bool, int)?'.
+ - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
           onGameResult: _onGameComplete,
                         ^
-lib/screens/alarm/alarm_dismissal_screen.dart:240:25: Error: Can't use '_onGameComplete' because it is declared more than once.
+lib/screens/alarm/alarm_dismissal_screen.dart:248:25: Error: The argument type 'void Function(GameResult)' can't be assigned to the parameter type 'dynamic Function(bool, int)?'.
+ - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
           onGameResult: _onGameComplete,
                         ^
-lib/screens/alarm/alarm_dismissal_screen.dart:245:25: Error: Can't use '_onGameComplete' because it is declared more than once.
+lib/screens/alarm/alarm_dismissal_screen.dart:253:25: Error: The argument type 'void Function(GameResult)' can't be assigned to the parameter type 'dynamic Function(bool, int)?'.
+ - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
           onGameResult: _onGameComplete,
                         ^
-lib/screens/alarm/alarm_dismissal_screen.dart:250:25: Error: Can't use '_onGameComplete' because it is declared more than once.
+lib/screens/alarm/alarm_dismissal_screen.dart:258:25: Error: The argument type 'void Function(GameResult)' can't be assigned to the parameter type 'dynamic Function(bool, int)?'.
+ - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
           onGameResult: _onGameComplete,
                         ^
-lib/screens/alarm/alarm_dismissal_screen.dart:259:5: Error: Can't use '_stopVibration' because it is declared more than once.
-    _stopVibration();
-    ^
-lib/screens/alarm/alarm_dismissal_screen.dart:429:20: Error: Can't use '_startGame' because it is declared more than once.
-        onPressed: _startGame,
-                   ^
-lib/screens/alarm/alarm_dismissal_screen.dart:471:20: Error: The method 'setCurrentGame' isn't defined for the class 'GameProvider'.
- - 'GameProvider' is from 'package:nosnooz/providers/game_provider.dart' ('lib/providers/game_provider.dart').
-Try correcting the name to the name of an existing method, or defining a method named 'setCurrentGame'.
-      gameProvider.setCurrentGame(_currentAlarm!.gameType);
-                   ^^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:506:7: Error: Can't use '_dismissAlarm' because it is declared more than once.
-      _dismissAlarm();
-      ^
-lib/screens/alarm/alarm_dismissal_screen.dart:503:20: Error: The method 'recordGameResult' isn't defined for the class 'GameProvider'.
- - 'GameProvider' is from 'package:nosnooz/providers/game_provider.dart' ('lib/providers/game_provider.dart').
-Try correcting the name to the name of an existing method, or defining a method named 'recordGameResult'.
-      gameProvider.recordGameResult(_currentAlarm!.gameType, success, score, _gameAttempts);
-                   ^^^^^^^^^^^^^^^^
-lib/screens/alarm/alarm_dismissal_screen.dart:532:7: Error: Can't use '_stopVibration' because it is declared more than once.
-      _stopVibration();
-      ^
-lib/screens/alarms/alarms_screen.dart:236:15: Error: Expected an identifier, but got ')'.
-Try inserting an identifier before ')'.
-              ),
-              ^
-lib/screens/alarms/alarms_screen.dart:236:15: Error: Expected ']' before this.
-              ),
-              ^
-lib/games/math_equation_game.dart:45:5: Error: Can't use '_startGame' because it is declared more than once.
-    _startGame();
-    ^
-lib/games/math_equation_game.dart:79:5: Error: Can't use '_generateQuestion' because it is declared more than once.
-    _generateQuestion();
-    ^
-lib/games/math_equation_game.dart:87:27: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
+lib/screens/alarm/alarm_dismissal_screen.dart:491:11: Error: Undefined name 'mounted'.
+      if (mounted) {
+          ^^^^^^^
+lib/screens/alarm/alarm_dismissal_screen.dart:492:30: Error: Undefined name 'context'.
+        ScaffoldMessenger.of(context).showSnackBar(
+                             ^^^^^^^
+lib/screens/alarm/alarm_dismissal_screen.dart:504:16: Error: Undefined name 'context'.
+      context: context,
+               ^^^^^^^
+lib/screens/alarm/alarm_dismissal_screen.dart:513:24: Error: Undefined name '_forceDismiss'.
+            onPressed: _forceDismiss,
+                       ^^^^^^^^^^^^^
+lib/screens/alarm/alarm_dismissal_screen.dart:520:17: Error: Setter not found: '_gameAttempts'.
+                _gameAttempts = 0;
+                ^^^^^^^^^^^^^
+lib/screens/alarm/alarm_dismissal_screen.dart:521:17: Error: Setter not found: '_gameStarted'.
+                _gameStarted = false;
+                ^^^^^^^^^^^^
+lib/screens/alarm/alarm_dismissal_screen.dart:519:15: Error: Method not found: 'setState'.
+              setState(() {
+              ^^^^^^^^
+lib/games/math_equation_game.dart:282:26: Error: Can't use an expression of type 'dynamic Function(GameResult)?' as a function because it's potentially null.
+ - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
+Try calling using ?.call instead.
+    widget.onGameComplete(result);
+                         ^
+lib/games/find_the_ball_game.dart:284:26: Error: Can't use an expression of type 'dynamic Function(GameResult)?' as a function because it's potentially null.
+ - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
+Try calling using ?.call instead.
+    widget.onGameComplete(result);
+                         ^
+lib/games/find_the_ball_game.dart:526:48: Error: The argument type 'DateTime?' can't be assigned to the parameter type 'DateTime' because 'DateTime?' is nullable and 'DateTime' isn't.
+ - 'DateTime' is from 'dart:core'.
+          timeTaken: DateTime.now().difference(_startTime),
+                                               ^
+lib/games/color_match_blitz_game.dart:273:26: Error: Can't use an expression of type 'dynamic Function(GameResult)?' as a function because it's potentially null.
+ - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
+Try calling using ?.call instead.
+    widget.onGameComplete(result);
+                         ^
+lib/games/color_match_blitz_game.dart:451:27: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
  - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
 Try accessing using ?. instead.
     switch (widget.config.difficulty) {
                           ^^^^^^^^^^
-lib/games/math_equation_game.dart:215:7: Error: Can't use '_generateQuestion' because it is declared more than once.
-      _generateQuestion();
-      ^
-lib/games/math_equation_game.dart:233:11: Error: Can't use '_generateQuestion' because it is declared more than once.
-          _generateQuestion();
-          ^
-lib/games/math_equation_game.dart:223:41: Error: Property 'maxAttempts' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    if (_wrongAttempts >= widget.config.maxAttempts) {
-                                        ^^^^^^^^^^^
-lib/games/math_equation_game.dart:227:25: Error: Property 'enableHints' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-      if (widget.config.enableHints) {
-                        ^^^^^^^^^^^
-lib/games/math_equation_game.dart:251:35: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    int baseScore = widget.config.difficulty == GameDifficulty.easy 
-                                  ^^^^^^^^^^
-lib/games/math_equation_game.dart:253:25: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-        : widget.config.difficulty == GameDifficulty.medium 
-                        ^^^^^^^^^^
-lib/games/math_equation_game.dart:258:41: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final remainingTime = widget.config.timeLimit - _timerController.value * widget.config.timeLimit;
-                                        ^^^^^^^^^
-lib/games/math_equation_game.dart:258:92: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final remainingTime = widget.config.timeLimit - _timerController.value * widget.config.timeLimit;
-                                                                                          ^^^^^^^^^
-lib/games/math_equation_game.dart:259:54: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final timeBonus = (remainingTime / widget.config.timeLimit * 10).round();
-                                                     ^^^^^^^^^
-lib/games/math_equation_game.dart:281:26: Error: Can't use an expression of type 'dynamic Function(GameResult)?' as a function because it's potentially null.
- - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try calling using ?.call instead.
-    widget.onGameComplete(result);
-                         ^
-lib/games/math_equation_game.dart:386:39: Error: Can't use '_selectAnswer' because it is declared more than once.
-                              ? () => _selectAnswer(option)
-                                      ^
-lib/games/math_equation_game.dart:446:11: Error: Can't use '_generateQuestion' because it is declared more than once.
-          _generateQuestion();
-          ^
-lib/games/math_equation_game.dart:461:11: Error: Can't use '_generateQuestion' because it is declared more than once.
-          _generateQuestion();
-          ^
-lib/games/math_equation_game.dart:531:5: Error: Can't use '_generateQuestion' because it is declared more than once.
-    _generateQuestion();
-    ^
-lib/games/math_equation_game.dart:563:11: Error: No named parameter with the name 'gameType'.
-          gameType: GameType.mathEquation,
-          ^^^^^^^^
-lib/models/game_model.dart:20:9: Context: Found this candidate, but the arguments don't match.
-  const GameResult({
-        ^^^^^^^^^^
-lib/games/math_equation_game.dart:618:17: Error: Can't use '_startGame' because it is declared more than once.
-                _startGame();
-                ^
-lib/games/find_the_ball_game.dart:55:49: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-      duration: Duration(seconds: widget.config.timeLimit),
-                                                ^^^^^^^^^
-lib/games/find_the_ball_game.dart:111:25: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-      if (widget.config.difficulty == GameDifficulty.medium) {
-                        ^^^^^^^^^^
-lib/games/find_the_ball_game.dart:113:32: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-      } else if (widget.config.difficulty == GameDifficulty.hard) {
-                               ^^^^^^^^^^
-lib/games/find_the_ball_game.dart:133:40: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final shuffleCount = widget.config.difficulty == GameDifficulty.easy 
-                                       ^^^^^^^^^^
-lib/games/find_the_ball_game.dart:135:25: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-        : widget.config.difficulty == GameDifficulty.medium 
-                        ^^^^^^^^^^
-lib/games/find_the_ball_game.dart:242:41: Error: Property 'maxAttempts' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    if (_wrongAttempts >= widget.config.maxAttempts) {
-                                        ^^^^^^^^^^^
-lib/games/find_the_ball_game.dart:253:35: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    int baseScore = widget.config.difficulty == GameDifficulty.easy 
-                                  ^^^^^^^^^^
-lib/games/find_the_ball_game.dart:255:25: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-        : widget.config.difficulty == GameDifficulty.medium 
-                        ^^^^^^^^^^
-lib/games/find_the_ball_game.dart:260:41: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final remainingTime = widget.config.timeLimit - _timerController.value * widget.config.timeLimit;
-                                        ^^^^^^^^^
-lib/games/find_the_ball_game.dart:260:92: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final remainingTime = widget.config.timeLimit - _timerController.value * widget.config.timeLimit;
-                                                                                          ^^^^^^^^^
-lib/games/find_the_ball_game.dart:261:54: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final timeBonus = (remainingTime / widget.config.timeLimit * 15).round();
-                                                     ^^^^^^^^^
-lib/games/find_the_ball_game.dart:283:26: Error: Can't use an expression of type 'dynamic Function(GameResult)?' as a function because it's potentially null.
- - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try calling using ?.call instead.
-    widget.onGameComplete(result);
-                         ^
-lib/games/find_the_ball_game.dart:523:11: Error: No named parameter with the name 'gameType'.
-          gameType: GameType.findTheBall,
-          ^^^^^^^^
-lib/models/game_model.dart:20:9: Context: Found this candidate, but the arguments don't match.
-  const GameResult({
-        ^^^^^^^^^^
-lib/games/find_the_ball_game.dart:520:39: Error: The getter '_currentScore' isn't defined for the class '_FindTheBallGameState'.
- - '_FindTheBallGameState' is from 'package:nosnooz/games/find_the_ball_game.dart' ('lib/games/find_the_ball_game.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named '_currentScore'.
-        widget.onGameResult!(success, _currentScore);
-                                      ^^^^^^^^^^^^^
-lib/games/find_the_ball_game.dart:555:27: Error: The getter '_currentScore' isn't defined for the class '_FindTheBallGameState'.
- - '_FindTheBallGameState' is from 'package:nosnooz/games/find_the_ball_game.dart' ('lib/games/find_the_ball_game.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named '_currentScore'.
-            Text('Score: $_currentScore'),
-                          ^^^^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:64:41: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-  int get _totalRounds => widget.config.difficulty == GameDifficulty.easy 
-                                        ^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:66:23: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-      : widget.config.difficulty == GameDifficulty.medium 
-                      ^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:81:49: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-      duration: Duration(seconds: widget.config.timeLimit),
-                                                ^^^^^^^^^
-lib/games/color_match_blitz_game.dart:132:29: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-      switch (widget.config.difficulty) {
-                            ^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:225:41: Error: Property 'maxAttempts' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    if (_wrongAttempts >= widget.config.maxAttempts) {
-                                        ^^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:238:35: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    int baseScore = widget.config.difficulty == GameDifficulty.easy 
-                                  ^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:240:25: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-        : widget.config.difficulty == GameDifficulty.medium 
-                        ^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:248:41: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final remainingTime = widget.config.timeLimit - _timerController.value * widget.config.timeLimit;
-                                        ^^^^^^^^^
-lib/games/color_match_blitz_game.dart:248:92: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final remainingTime = widget.config.timeLimit - _timerController.value * widget.config.timeLimit;
-                                                                                          ^^^^^^^^^
-lib/games/color_match_blitz_game.dart:249:55: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final speedBonus = (remainingTime / widget.config.timeLimit * 15).round();
-                                                      ^^^^^^^^^
-lib/games/color_match_blitz_game.dart:272:26: Error: Can't use an expression of type 'dynamic Function(GameResult)?' as a function because it's potentially null.
- - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try calling using ?.call instead.
-    widget.onGameComplete(result);
-                         ^
-lib/games/color_match_blitz_game.dart:450:27: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    switch (widget.config.difficulty) {
-                          ^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:507:11: Error: No named parameter with the name 'gameType'.
-          gameType: GameType.colorMatchBlitz,
-          ^^^^^^^^
-lib/models/game_model.dart:20:9: Context: Found this candidate, but the arguments don't match.
-  const GameResult({
-        ^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:504:39: Error: The getter '_currentScore' isn't defined for the class '_ColorMatchBlitzGameState'.
+lib/games/color_match_blitz_game.dart:541:36: Error: The getter '_matchedPairs' isn't defined for the class '_ColorMatchBlitzGameState'.
  - '_ColorMatchBlitzGameState' is from 'package:nosnooz/games/color_match_blitz_game.dart' ('lib/games/color_match_blitz_game.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named '_currentScore'.
-        widget.onGameResult!(success, _currentScore);
-                                      ^^^^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:539:27: Error: The getter '_currentScore' isn't defined for the class '_ColorMatchBlitzGameState'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named '_matchedPairs'.
+            Text('Colors matched: $_matchedPairs'),
+                                   ^^^^^^^^^^^^^
+lib/games/color_match_blitz_game.dart:559:19: Error: The setter '_matchedPairs' isn't defined for the class '_ColorMatchBlitzGameState'.
  - '_ColorMatchBlitzGameState' is from 'package:nosnooz/games/color_match_blitz_game.dart' ('lib/games/color_match_blitz_game.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named '_currentScore'.
-            Text('Score: $_currentScore'),
-                          ^^^^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:541:36: Error: The getter '_correctAnswers' isn't defined for the class '_ColorMatchBlitzGameState'.
- - '_ColorMatchBlitzGameState' is from 'package:nosnooz/games/color_match_blitz_game.dart' ('lib/games/color_match_blitz_game.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named '_correctAnswers'.
-            Text('Colors matched: $_correctAnswers'),
-                                   ^^^^^^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:558:19: Error: The setter '_currentScore' isn't defined for the class '_ColorMatchBlitzGameState'.
- - '_ColorMatchBlitzGameState' is from 'package:nosnooz/games/color_match_blitz_game.dart' ('lib/games/color_match_blitz_game.dart').
-Try correcting the name to the name of an existing setter, or defining a setter or field named '_currentScore'.
-                  _currentScore = 0;
+Try correcting the name to the name of an existing setter, or defining a setter or field named '_matchedPairs'.
+                  _matchedPairs = 0;
                   ^^^^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:559:19: Error: The setter '_correctAnswers' isn't defined for the class '_ColorMatchBlitzGameState'.
- - '_ColorMatchBlitzGameState' is from 'package:nosnooz/games/color_match_blitz_game.dart' ('lib/games/color_match_blitz_game.dart').
-Try correcting the name to the name of an existing setter, or defining a setter or field named '_correctAnswers'.
-                  _correctAnswers = 0;
-                  ^^^^^^^^^^^^^^^
-lib/games/color_match_blitz_game.dart:561:19: Error: The setter '_selectedColor' isn't defined for the class '_ColorMatchBlitzGameState'.
- - '_ColorMatchBlitzGameState' is from 'package:nosnooz/games/color_match_blitz_game.dart' ('lib/games/color_match_blitz_game.dart').
-Try correcting the name to the name of an existing setter, or defining a setter or field named '_selectedColor'.
-                  _selectedColor = null;
-                  ^^^^^^^^^^^^^^
-lib/games/memory_flip_game.dart:88:49: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-      duration: Duration(seconds: widget.config.timeLimit),
-                                                ^^^^^^^^^
-lib/games/memory_flip_game.dart:122:27: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    switch (widget.config.difficulty) {
-                          ^^^^^^^^^^
-lib/games/memory_flip_game.dart:166:52: Error: Property 'enableHints' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    Future.delayed(Duration(seconds: widget.config.enableHints ? 3 : 2), () {
-                                                   ^^^^^^^^^^^
-lib/games/memory_flip_game.dart:253:41: Error: Property 'maxAttempts' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    if (_wrongAttempts >= widget.config.maxAttempts) {
-                                        ^^^^^^^^^^^
-lib/games/memory_flip_game.dart:259:35: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    int baseScore = widget.config.difficulty == GameDifficulty.easy 
-                                  ^^^^^^^^^^
-lib/games/memory_flip_game.dart:261:25: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-        : widget.config.difficulty == GameDifficulty.medium 
-                        ^^^^^^^^^^
-lib/games/memory_flip_game.dart:273:41: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final remainingTime = widget.config.timeLimit - _timerController.value * widget.config.timeLimit;
-                                        ^^^^^^^^^
-lib/games/memory_flip_game.dart:273:92: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final remainingTime = widget.config.timeLimit - _timerController.value * widget.config.timeLimit;
-                                                                                          ^^^^^^^^^
-lib/games/memory_flip_game.dart:274:54: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final timeBonus = (remainingTime / widget.config.timeLimit * 15).round();
-                                                     ^^^^^^^^^
-lib/games/memory_flip_game.dart:296:26: Error: Can't use an expression of type 'dynamic Function(GameResult)?' as a function because it's potentially null.
+lib/games/color_match_blitz_game.dart:561:34: Error: The value 'null' can't be assigned to a variable of type 'Color' because 'Color' is not nullable.
+ - 'Color' is from 'dart:ui'.
+                  _targetColor = null;
+                                 ^
+lib/games/memory_flip_game.dart:297:26: Error: Can't use an expression of type 'dynamic Function(GameResult)?' as a function because it's potentially null.
  - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
 Try calling using ?.call instead.
     widget.onGameComplete(result);
                          ^
-lib/games/memory_flip_game.dart:496:11: Error: No named parameter with the name 'gameType'.
-          gameType: GameType.memoryFlip,
-          ^^^^^^^^
-lib/models/game_model.dart:20:9: Context: Found this candidate, but the arguments don't match.
-  const GameResult({
-        ^^^^^^^^^^
-lib/games/memory_flip_game.dart:493:39: Error: The getter '_currentScore' isn't defined for the class '_MemoryFlipGameState'.
- - '_MemoryFlipGameState' is from 'package:nosnooz/games/memory_flip_game.dart' ('lib/games/memory_flip_game.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named '_currentScore'.
-        widget.onGameResult!(success, _currentScore);
-                                      ^^^^^^^^^^^^^
-lib/games/memory_flip_game.dart:528:27: Error: The getter '_currentScore' isn't defined for the class '_MemoryFlipGameState'.
- - '_MemoryFlipGameState' is from 'package:nosnooz/games/memory_flip_game.dart' ('lib/games/memory_flip_game.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named '_currentScore'.
-            Text('Score: $_currentScore'),
-                          ^^^^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:65:49: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-      duration: Duration(seconds: widget.config.timeLimit),
-                                                ^^^^^^^^^
-lib/games/puzzle_solve_game.dart:98:27: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    switch (widget.config.difficulty) {
-                          ^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:137:40: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final shuffleMoves = widget.config.difficulty == GameDifficulty.easy 
-                                       ^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:139:25: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-        : widget.config.difficulty == GameDifficulty.medium 
-                        ^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:188:43: Error: Property 'maxAttempts' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-      if (_wrongAttempts >= widget.config.maxAttempts) {
-                                          ^^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:254:35: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    int baseScore = widget.config.difficulty == GameDifficulty.easy 
-                                  ^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:256:25: Error: Property 'difficulty' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-        : widget.config.difficulty == GameDifficulty.medium 
-                        ^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:268:41: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final remainingTime = widget.config.timeLimit - _timerController.value * widget.config.timeLimit;
-                                        ^^^^^^^^^
-lib/games/puzzle_solve_game.dart:268:92: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final remainingTime = widget.config.timeLimit - _timerController.value * widget.config.timeLimit;
-                                                                                          ^^^^^^^^^
-lib/games/puzzle_solve_game.dart:269:54: Error: Property 'timeLimit' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    final timeBonus = (remainingTime / widget.config.timeLimit * 100).round();
-                                                     ^^^^^^^^^
-lib/games/puzzle_solve_game.dart:297:26: Error: Can't use an expression of type 'dynamic Function(GameResult)?' as a function because it's potentially null.
+lib/games/puzzle_solve_game.dart:298:26: Error: Can't use an expression of type 'dynamic Function(GameResult)?' as a function because it's potentially null.
  - 'GameResult' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
 Try calling using ?.call instead.
     widget.onGameComplete(result);
                          ^
-lib/games/puzzle_solve_game.dart:301:24: Error: Property 'enableHints' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-    if (!widget.config.enableHints) return;
-                       ^^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:332:29: Error: Property 'enableHints' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-          if (widget.config.enableHints)
-                            ^^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:411:39: Error: Property 'enableHints' cannot be accessed on 'GameConfig?' because it is potentially null.
- - 'GameConfig' is from 'package:nosnooz/models/game_model.dart' ('lib/models/game_model.dart').
-Try accessing using ?. instead.
-                    if (widget.config.enableHints && !_isSolved) ...[
-                                      ^^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:556:11: Error: No named parameter with the name 'gameType'.
-          gameType: GameType.puzzleSolve,
-          ^^^^^^^^
-lib/models/game_model.dart:20:9: Context: Found this candidate, but the arguments don't match.
-  const GameResult({
-        ^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:553:39: Error: The getter '_currentScore' isn't defined for the class '_PuzzleSolveGameState'.
- - '_PuzzleSolveGameState' is from 'package:nosnooz/games/puzzle_solve_game.dart' ('lib/games/puzzle_solve_game.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named '_currentScore'.
-        widget.onGameResult!(success, _currentScore);
-                                      ^^^^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:588:27: Error: The getter '_currentScore' isn't defined for the class '_PuzzleSolveGameState'.
- - '_PuzzleSolveGameState' is from 'package:nosnooz/games/puzzle_solve_game.dart' ('lib/games/puzzle_solve_game.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named '_currentScore'.
-            Text('Score: $_currentScore'),
-                          ^^^^^^^^^^^^^
-lib/games/puzzle_solve_game.dart:590:27: Error: The getter '_moveCount' isn't defined for the class '_PuzzleSolveGameState'.
- - '_PuzzleSolveGameState' is from 'package:nosnooz/games/puzzle_solve_game.dart' ('lib/games/puzzle_solve_game.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named '_moveCount'.
-            Text('Moves: $_moveCount'),
-                          ^^^^^^^^^^
-lib/screens/games/game_detail_screen.dart:197:28: Error: Couldn't find constructor 'MathEquationGame'.
-        gameWidget = const MathEquationGame(isPracticeMode: true);
-                           ^^^^^^^^^^^^^^^^
-lib/screens/games/game_detail_screen.dart:200:28: Error: Couldn't find constructor 'FindTheBallGame'.
-        gameWidget = const FindTheBallGame(isPracticeMode: true);
-                           ^^^^^^^^^^^^^^^
-lib/screens/games/game_detail_screen.dart:203:28: Error: Couldn't find constructor 'ColorMatchBlitzGame'.
-        gameWidget = const ColorMatchBlitzGame(isPracticeMode: true);
-                           ^^^^^^^^^^^^^^^^^^^
-lib/screens/games/game_detail_screen.dart:206:28: Error: Couldn't find constructor 'MemoryFlipGame'.
-        gameWidget = const MemoryFlipGame(isPracticeMode: true);
-                           ^^^^^^^^^^^^^^
-lib/screens/games/game_detail_screen.dart:209:28: Error: Couldn't find constructor 'PuzzleSolveGame'.
-        gameWidget = const PuzzleSolveGame(isPracticeMode: true);
-                           ^^^^^^^^^^^^^^^
+lib/screens/games/game_detail_screen.dart:197:22: Error: The method 'MathEquationGame' isn't defined for the class 'GameDetailScreen'.
+ - 'GameDetailScreen' is from 'package:nosnooz/screens/games/game_detail_screen.dart' ('lib/screens/games/game_detail_screen.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MathEquationGame'.
+        gameWidget = MathEquationGame(
+                     ^^^^^^^^^^^^^^^^
+lib/screens/games/game_detail_screen.dart:203:22: Error: The method 'FindTheBallGame' isn't defined for the class 'GameDetailScreen'.
+ - 'GameDetailScreen' is from 'package:nosnooz/screens/games/game_detail_screen.dart' ('lib/screens/games/game_detail_screen.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'FindTheBallGame'.
+        gameWidget = FindTheBallGame(
+                     ^^^^^^^^^^^^^^^
+lib/screens/games/game_detail_screen.dart:209:22: Error: The method 'ColorMatchBlitzGame' isn't defined for the class 'GameDetailScreen'.
+ - 'GameDetailScreen' is from 'package:nosnooz/screens/games/game_detail_screen.dart' ('lib/screens/games/game_detail_screen.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'ColorMatchBlitzGame'.
+        gameWidget = ColorMatchBlitzGame(
+                     ^^^^^^^^^^^^^^^^^^^
+lib/screens/games/game_detail_screen.dart:215:22: Error: The method 'MemoryFlipGame' isn't defined for the class 'GameDetailScreen'.
+ - 'GameDetailScreen' is from 'package:nosnooz/screens/games/game_detail_screen.dart' ('lib/screens/games/game_detail_screen.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MemoryFlipGame'.
+        gameWidget = MemoryFlipGame(
+                     ^^^^^^^^^^^^^^
+lib/screens/games/game_detail_screen.dart:221:22: Error: The method 'PuzzleSolveGame' isn't defined for the class 'GameDetailScreen'.
+ - 'GameDetailScreen' is from 'package:nosnooz/screens/games/game_detail_screen.dart' ('lib/screens/games/game_detail_screen.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'PuzzleSolveGame'.
+        gameWidget = PuzzleSolveGame(
+                     ^^^^^^^^^^^^^^^
 Target kernel_snapshot_program failed: Exception
 
 
 FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command 'C:\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 47s
+Error: Gradle task assembleDebug failed with exit code 1
